@@ -1,0 +1,202 @@
+/*************************************************************
+ BLEUTECH APP.CSS
+ AUTHOR: MCPROG
+ SINCE: 08-19-2016
+ HAPPY BIRTHDAY SIS!!!!
+ *************************************************************/
+
+
+/*************************************************************
+ GENERAL
+ *************************************************************/
+.wrapper {
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.off-canvas-wrapper {
+    background-color: #191919;
+}
+
+
+
+/*************************************************************
+ NAVIGATION - MOBILE
+ *************************************************************/
+.title-bar {
+    background-color: #191919;
+}
+
+#mobileMenu {
+    background-color: #191919;
+}
+
+.vertical.menu > li > h2 {
+    color: white;
+    background-color: #000;
+    font-size: 1.5em;
+    line-height: 41px;
+    padding-left: 1rem;
+}
+
+#mobileMenu a {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: bold;
+    line-height: 2;
+}
+
+#mobileMenu a:hover {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#mobileMenu .active > a {
+    background-color: black;
+}
+
+.close-button {
+    color: rgba(255, 255, 255, 0.3);
+    top: 0;
+    line-height: 41px;
+}
+
+.close-button:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+
+
+/*************************************************************
+ NAVIGATION - DESKTOP
+ *************************************************************/
+.nav-desktop {
+    height: 80px;
+    padding: 0;
+}
+
+.nav-desktop .site-logo {
+    line-height: 80px;
+}
+
+.nav-desktop .menu-desktop {
+    line-height: 80px;
+    background: transparent;
+}
+
+.menu-desktop li.active > a {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: black;
+}
+
+.menu-desktop > li > a {
+    display: inline-block;
+    line-height: 80px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: black;
+}
+
+.menu-desktop > li > a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+/*************************************************************
+ HERO
+ *************************************************************/
+.hero {
+    background-color: #999;
+    padding: 50px 0;
+    height: 400px;
+    background-image: url("../img/congruent_outline.png");
+}
+
+.hero h1,
+.hero p {
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 700px;
+}
+
+
+
+
+
+
+
+/*************************************************************
+ MAIN SECTION
+ *************************************************************/
+main {
+    padding: 50px 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*************************************************************
+ FOOTER
+ *************************************************************/
+ footer {
+    /*height: 250px;*/
+    padding-top: 50px;
+    background-color: #333;
+ }
+
+ footer h4 {
+     color: rgba(255, 255, 255, 0.8);
+     font-size: 1.3em;
+ }
+
+ footer hr {
+     border-color: rgba(255, 255, 255, 0.1);
+     margin: 10px 0;
+ }
+
+ footer a {
+     display: block;
+     color: rgba(255, 255, 255, 0.6);
+     font-size: 0.8em;
+ }
+
+ footer a span {
+     font-weight: bold;
+     color: rgba(255, 255, 255, 0.3);
+ }
+
+ footer a:hover {
+     color: rgba(255, 255, 255, 0.8);
+ }
+
+ footer .column {
+     margin-bottom: 30px;
+ }
+
+
+
+
+
+/*************************************************************
+ MEDIA QUERIES
+ *************************************************************/
+/*@media (max-width: 640px) {
+    .nav-desktop {
+        display: none;
+    }
+}*/
